@@ -1,0 +1,291 @@
+[
+  {
+    "name": "Kyoto Temples",
+    "budget": "medium",
+    "vibe": ["cultural", "peaceful"],
+    "accommodation_rating": 5,
+    "safety_rating": 5,
+    "crowd_level": "medium",
+    "tags": ["temples", "history", "culture"]
+  },
+  {
+    "name": "Machu Picchu",
+    "budget": "high",
+    "vibe": ["adventure", "historic"],
+    "accommodation_rating": 4,
+    "safety_rating": 4,
+    "crowd_level": "medium",
+    "tags": ["ancient", "mountains", "history"]
+  }
+  ,
+  {
+    "name": "Paris Historic Center",
+    "budget": "high",
+    "vibe": ["romantic", "cultural"],
+    "accommodation_rating": 5,
+    "safety_rating": 4,
+    "crowd_level": "high",
+    "tags": ["museums", "architecture", "food"]
+  },
+  {
+    "name": "Bali Beaches",
+    "budget": "medium",
+    "vibe": ["relaxing", "spiritual"],
+    "accommodation_rating": 4,
+    "safety_rating": 4,
+    "crowd_level": "high",
+    "tags": ["beaches", "yoga", "temples"]
+  },
+  {
+    "name": "Swiss Alps",
+    "budget": "high",
+    "vibe": ["adventure", "scenic"],
+    "accommodation_rating": 5,
+    "safety_rating": 5,
+    "crowd_level": "medium",
+    "tags": ["mountains", "hiking", "skiing"]
+  },
+  {
+    "name": "Santorini",
+    "budget": "high",
+    "vibe": ["romantic", "picturesque"],
+    "accommodation_rating": 5,
+    "safety_rating": 5,
+    "crowd_level": "high",
+    "tags": ["island", "sunset", "architecture"]
+  },
+  {
+    "name": "New York City",
+    "budget": "high",
+    "vibe": ["energetic", "cultural"],
+    "accommodation_rating": 4,
+    "safety_rating": 4,
+    "crowd_level": "high",
+    "tags": ["skyscrapers", "theater", "shopping"]
+  },
+  {
+    "name": "Banff National Park",
+    "budget": "medium",
+    "vibe": ["nature", "adventure"],
+    "accommodation_rating": 4,
+    "safety_rating": 5,
+    "crowd_level": "medium",
+    "tags": ["lakes", "wildlife", "hiking"]
+  },
+  {
+    "name": "Rome Ancient Sites",
+    "budget": "medium",
+    "vibe": ["historic", "cultural"],
+    "accommodation_rating": 4,
+    "safety_rating": 4,
+    "crowd_level": "high",
+    "tags": ["ruins", "history", "food"]
+  },
+  {
+    "name": "Tokyo Districts",
+    "budget": "high",
+    "vibe": ["modern", "cultural"],
+    "accommodation_rating": 4,
+    "safety_rating": 5,
+    "crowd_level": "high",
+    "tags": ["technology", "food", "shopping"]
+  },
+  {
+    "name": "Iceland Ring Road",
+    "budget": "high",
+    "vibe": ["adventure", "nature"],
+    "accommodation_rating": 4,
+    "safety_rating": 5,
+    "crowd_level": "low",
+    "tags": ["waterfalls", "northern lights", "geothermal"]
+  },
+  {
+    "name": "Dubai City",
+    "budget": "high",
+    "vibe": ["luxury", "modern"],
+    "accommodation_rating": 5,
+    "safety_rating": 5,
+    "crowd_level": "medium",
+    "tags": ["skyscrapers", "shopping", "desert"]
+  },
+  {
+    "name": "Prague Old Town",
+    "budget": "low",
+    "vibe": ["historic", "romantic"],
+    "accommodation_rating": 4,
+    "safety_rating": 5,
+    "crowd_level": "medium",
+    "tags": ["architecture", "beer", "history"]
+  },
+  {
+    "name": "Australian Outback",
+    "budget": "medium",
+    "vibe": ["adventure", "remote"],
+    "accommodation_rating": 3,
+    "safety_rating": 4,
+    "crowd_level": "low",
+    "tags": ["desert", "wildlife", "stargazing"]
+  },
+  {
+    "name": "Amalfi Coast",
+    "budget": "high",
+    "vibe": ["scenic", "relaxing"],
+    "accommodation_rating": 5,
+    "safety_rating": 5,
+    "crowd_level": "high",
+    "tags": ["coastline", "villages", "food"]
+  },
+  {
+    "name": "Costa Rica Rainforests",
+    "budget": "medium",
+    "vibe": ["eco", "adventure"],
+    "accommodation_rating": 4,
+    "safety_rating": 5,
+    "crowd_level": "medium",
+    "tags": ["wildlife", "ziplining", "sustainability"]
+  },
+  {
+    "name": "Marrakech Medina",
+    "budget": "low",
+    "vibe": ["cultural", "vibrant"],
+    "accommodation_rating": 4,
+    "safety_rating": 4,
+    "crowd_level": "high",
+    "tags": ["markets", "architecture", "culture"]
+  },
+  {
+    "name": "Canadian Rockies",
+    "budget": "medium",
+    "vibe": ["nature", "majestic"],
+    "accommodation_rating": 4,
+    "safety_rating": 5,
+    "crowd_level": "medium",
+    "tags": ["glaciers", "hiking", "photography"]
+  },
+  {
+    "name": "Venice Canals",
+    "budget": "high",
+    "vibe": ["romantic", "historic"],
+    "accommodation_rating": 4,
+    "safety_rating": 5,
+    "crowd_level": "high",
+    "tags": ["canals", "architecture", "gondolas"]
+  },
+  {
+    "name": "Thailand Islands",
+    "budget": "low",
+    "vibe": ["tropical", "relaxing"],
+    "accommodation_rating": 4,
+    "safety_rating": 4,
+    "crowd_level": "medium",
+    "tags": ["beaches", "diving", "budget"]
+  },
+  {
+    "name": "Petra Archaeological Park",
+    "budget": "medium",
+    "vibe": ["historic", "adventure"],
+    "accommodation_rating": 3,
+    "safety_rating": 4,
+    "crowd_level": "medium",
+    "tags": ["ancient", "desert", "hiking"]
+  },
+  {
+    "name": "Norwegian Fjords",
+    "budget": "high",
+    "vibe": ["scenic", "serene"],
+    "accommodation_rating": 4,
+    "safety_rating": 5,
+    "crowd_level": "low",
+    "tags": ["mountains", "cruising", "nature"]
+  },
+  {
+    "name": "Cape Town",
+    "budget": "medium",
+    "vibe": ["scenic", "cultural"],
+    "accommodation_rating": 4,
+    "safety_rating": 3,
+    "crowd_level": "medium",
+    "tags": ["mountain", "wine", "beaches"]
+  },
+  {
+    "name": "Angkor Wat Complex",
+    "budget": "low",
+    "vibe": ["historic", "spiritual"],
+    "accommodation_rating": 3,
+    "safety_rating": 4,
+    "crowd_level": "medium",
+    "tags": ["temples", "history", "culture"]
+  },
+  {
+    "name": "Great Barrier Reef",
+    "budget": "high",
+    "vibe": ["adventure", "nature"],
+    "accommodation_rating": 4,
+    "safety_rating": 4,
+    "crowd_level": "medium",
+    "tags": ["diving", "marine life", "islands"]
+  },
+  {
+    "name": "Barcelona Architecture",
+    "budget": "medium",
+    "vibe": ["artistic", "vibrant"],
+    "accommodation_rating": 4,
+    "safety_rating": 4,
+    "crowd_level": "high",
+    "tags": ["gaudi", "food", "beaches"]
+  },
+  {
+    "name": "Egypt Pyramids",
+    "budget": "low",
+    "vibe": ["historic", "ancient"],
+    "accommodation_rating": 3,
+    "safety_rating": 3,
+    "crowd_level": "high",
+    "tags": ["ancient", "desert", "history"]
+  },
+  {
+    "name": "Swiss Countryside",
+    "budget": "high",
+    "vibe": ["peaceful", "scenic"],
+    "accommodation_rating": 5,
+    "safety_rating": 5,
+    "crowd_level": "low",
+    "tags": ["lakes", "villages", "tranquil"]
+  },
+  {
+    "name": "Vietnam Ha Long Bay",
+    "budget": "low",
+    "vibe": ["scenic", "adventure"],
+    "accommodation_rating": 3,
+    "safety_rating": 4,
+    "crowd_level": "medium",
+    "tags": ["cruise", "islands", "kayaking"]
+  },
+  {
+    "name": "Alaska Wilderness",
+    "budget": "high",
+    "vibe": ["remote", "adventure"],
+    "accommodation_rating": 3,
+    "safety_rating": 4,
+    "crowd_level": "low",
+    "tags": ["glaciers", "wildlife", "fishing"]
+  },
+  {
+    "name": "Lisbon Neighborhoods",
+    "budget": "medium",
+    "vibe": ["charming", "historic"],
+    "accommodation_rating": 4,
+    "safety_rating": 5,
+    "crowd_level": "medium",
+    "tags": ["hills", "tiles", "food"]
+  },
+  {
+    "name": "Serengeti National Park",
+    "budget": "high",
+    "vibe": ["wildlife", "adventure"],
+    "accommodation_rating": 4,
+    "safety_rating": 4,
+    "crowd_level": "medium",
+    "tags": ["safari", "migration", "animals"]
+  }
+]

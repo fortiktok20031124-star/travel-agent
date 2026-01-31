@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+import json
 from typing import List, Dict
 
 app = FastAPI(title="Travel Recommendation API")
@@ -27,44 +28,7 @@ class UserPreference(BaseModel):
     disliked: List[str]
 
 # Sample data
-PLACES = [
-    {
-        "name": "Eiffel Tower",
-        "budget": "medium",
-        "vibe": ["romantic", "historic"],
-        "accommodation_rating": 4,
-        "safety_rating": 5,
-        "crowd_level": "high",
-        "tags": ["city", "historic", "romantic"]
-    },
-    {
-        "name": "Colosseum",
-        "budget": "medium",
-        "vibe": ["historic"],
-        "accommodation_rating": 4,
-        "safety_rating": 4,
-        "crowd_level": "high",
-        "tags": ["historic", "ancient", "city"]
-    },
-    {
-        "name": "Maldives Beach",
-        "budget": "high",
-        "vibe": ["relaxing", "romantic"],
-        "accommodation_rating": 5,
-        "safety_rating": 5,
-        "crowd_level": "low",
-        "tags": ["beach", "island", "luxury"]
-    },
-    {
-        "name": "Bondi Beach",
-        "budget": "low",
-        "vibe": ["adventure", "fun"],
-        "accommodation_rating": 3,
-        "safety_rating": 4,
-        "crowd_level": "high",
-        "tags": ["beach", "surfing", "sun"]
-    }
-]
+
 
 # Healthcheck endpoint
 @app.get("/health", summary="Check if the API is running")
@@ -75,6 +39,10 @@ def healthcheck() -> Dict[str, str]:
 @app.post("/recommend", summary="Get top 3 recommended places based on user preferences")
 def recommend_places(preference: UserPreference) -> Dict[str, List[Dict]]:
     recommendations = []
+    import json
+
+    with open("places.json", "r") as f:
+        PLACES = json.load(f)
 
     for place in PLACES:
         score = 0
@@ -111,6 +79,5 @@ def recommend_places(preference: UserPreference) -> Dict[str, List[Dict]]:
     recommendations.sort(key=lambda x: x["score"], reverse=True)
 
     return {
-        "recommended_places": recommendations[:10]
+        "recommended_places": recommendations[:3]
     }
-
