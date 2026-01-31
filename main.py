@@ -79,5 +79,6 @@ def recommend_places(preference: UserPreference) -> Dict[str, List[Dict]]:
     recommendations.sort(key=lambda x: x["score"], reverse=True)
 
     return {
-        "recommended_places": recommendations[:3]
+        "recommended_places": recommendations[:10]
     }
+
